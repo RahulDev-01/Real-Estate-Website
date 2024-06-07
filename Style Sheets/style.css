@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../Photos/mainBackground.png");
+  background-position: start center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  overflow-x: hidden;
+  background-color: #f3ecec;
+}
+/* Header */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+.logo {
+  margin-left: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  margin-right: 100px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+li:hover {
+  text-decoration: underline white;
+  font-weight: 500;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 10px;
+  margin-top: 150px;
+}
+section h1 {
+  color: white;
+  font-size: 5.25rem;
+}
+section p {
+  color: white;
+  font-size: 1.25rem;
+  margin-left: 5px;
+  margin-top: 1rem;
+}
+section button {
+  background-color: #6663e9;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 1.25rem;
+  border: 1px solid #6663e9;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+
+/* 2nd page */
+
+.card-heading h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: black;
+  margin-top: 15%;
+  font-weight: bold;
+}
+.card-heading p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+/* boxes Styling */
+.all-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+}
+.box {
+  height: 24.2rem;
+  width: 24.2rem;
+  /* border: 1px solid black; */
+  margin: 4%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  position: relative;
+  border-radius: 2%;
+}
+.small {
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -3rem;
+  left: 2rem;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.smallbox1 h2,
+.smallbox1 p {
+  position: relative;
+  top: 0.5rem;
+  right: 5rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+.smallbox1 p {
+  color: #6663e9;
+}
+.smallbox1 button {
+  position: relative;
+  background-color: #6663e9;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 1.25rem;
+  border: 1px solid #6663e9;
+  border-radius: 5px;
+  cursor: pointer;
+  left: 7.5rem;
+  bottom: 2.8rem;
+}
+/* 3rd page */
+.third-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  margin-bottom: 8%;
+}
+.part-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.img1 {
+  height: 70%;
+  width: 70%;
+  z-index: -1;
+  display: flex;
+  justify-content: left;
+}
+.img2 {
+  height: 80%;
+  width: 50%;
+  border-radius: 5%;
+  position: absolute;
+  left: 6.2rem;
+  bottom: 4rem;
+}
+
+/* Part 2 */
+
+.part-2 h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.part-2 p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.part-2 button {
+  margin-top: 2rem;
+  background-color: #6663e9;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 1.25rem;
+  border: 1px solid #6663e9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  color: #6663e9;
+  background-color: #fff;
+}
+.kongo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.kongo-img {
+  left: 10rem;
+  height: 10%;
+  width: 70%;
+  position: relative;
+}
+.kongo-img2 {
+  position: absolute;
+  height: 82%;
+  width: 52%;
+  left: 12rem;
+  bottom: 4rem;
+}
+
+/* News-Letter */
+
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+  height: 500px;
+  width: 100;
+  flex-wrap: wrap;
+}
+.news-form {
+  height: 100%;
+  width: 90%;
+  background-color: #6663e9;
+  border-radius: 90px;
+}
+.news-form h1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+}
+.news-form p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+input {
+  background-image: url("../icons/mail.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-color: black;
+  background-position: 20px;
+  padding-left: 60px;
+  color: #ffffff;
+  border: 2px solid #4442e0;
+}
+#E-mail {
+  width: 30rem;
+  font-size: 2.5rem;
+  border-radius: 50px;
+  background-color: #4442e0;
+  border: 1px solid #6663e9;
+  margin-right: 20px;
+}
+.email button {
+  background-color: #ffffff;
+  color: #4442e0;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  border: 1px solid #6663e9;
+  border-radius: 30px;
+  margin-left: 1.5rem;
+  margin-bottom: 0.29rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.op:hover{
+  color: #ffffff;
+  background-color: #4442e0;
+}
+::placeholder {
+  color: #6663e9;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 5px;
+}
+
+/* Footer */
+
+footer{
+  padding: 20px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.fotter-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.p-f {
+  font-size: 1rem;
+}
+.img11 {
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+.img12 {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+/* links */
+
+.last1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5rem;
+  margin-bottom: 6px;
+}
+.last1 a {
+  color: black;
+  font-size: 1.1rem;
+  text-align: start;
+  display: grid;
+  row-gap: 30px;
+  margin-top: 15px;
+}
+.last1 a:hover {
+  text-decoration: underline black;
+  font-weight: bold;
+}
+.first1 {
+  font-size: 2rem;
+}
+button:hover {
+  color: #6663e9;
+  background-color: #fff;
+}
+
+/* Completed By-/ S.Rahul */
